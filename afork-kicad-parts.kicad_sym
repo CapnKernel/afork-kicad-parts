@@ -6060,7 +6060,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "JP"
+		(property "Reference" "P"
 			(at 0 2.032 0)
 			(effects
 				(font
@@ -6208,7 +6208,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "JP"
+		(property "Reference" "P"
 			(at 0 2.032 0)
 			(effects
 				(font
@@ -6344,7 +6344,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(property "Reference" "JP"
+		(property "Reference" "P"
 			(at 0 2.032 0)
 			(effects
 				(font
