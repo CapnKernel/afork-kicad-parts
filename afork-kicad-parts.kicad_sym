@@ -2410,7 +2410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Espressif:ESP32-S3-WROOM-1"
+		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
 			(at 2.54 -36.83 0)
 			(effects
 				(font
