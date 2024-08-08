@@ -6063,7 +6063,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "JP"
+			(property "Reference" "P"
 				(at 0 2.032 0)
 				(effects
 					(font
@@ -6081,7 +6081,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "ozhelm:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(property "Footprint" "afork-kicad-parts:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 				(at 1.27 3.81 0)
 				(effects
 					(font
@@ -6211,7 +6211,7 @@
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "JP"
+			(property "Reference" "P"
 				(at 0 2.032 0)
 				(effects
 					(font
@@ -6229,7 +6229,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint" "ozhelm:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(property "Footprint" "afork-kicad-parts:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -13167,7 +13167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ozhelm:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+		(property "Footprint" "afork-kicad-parts:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 17.78 34.29 0)
 			(effects
 				(font
@@ -13837,7 +13837,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ozhelm:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+		(property "Footprint" "afork-kicad-parts:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 19.05 26.67 0)
 			(effects
 				(font
@@ -14091,6 +14091,76 @@
 			(project "afork-kicad-parts"
 				(path "/cb8f6e0d-a02c-4a1b-9ae5-b293992d3fe7"
 					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch-open")
+		(at 27.94 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb05c6e0-9ce8-4170-98c8-2495e67a759d")
+		(property "Reference" "JP5"
+			(at 27.94 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch-open"
+			(at 28.194 35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Open"
+			(at 27.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally open, small symbol"
+			(at 27.94 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "82904147-82bd-4bbe-9ded-c19eb87e4684")
+		)
+		(pin "1"
+			(uuid "7416b33c-60f5-4d3b-80d6-636c39e2dd37")
+		)
+		(instances
+			(project "afork-kicad-parts"
+				(path "/cb8f6e0d-a02c-4a1b-9ae5-b293992d3fe7"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -14638,6 +14708,76 @@
 			(project "afork-kicad-parts"
 				(path "/cb8f6e0d-a02c-4a1b-9ae5-b293992d3fe7"
 					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:PCB_Patch")
+		(at 27.94 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f18c7e4d-eb75-4f8b-b9b3-748cf5dbc816")
+		(property "Reference" "JP4"
+			(at 27.94 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 28.194 32.004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 29.21 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 27.94 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb07b147-f6d5-4fb2-b4a1-d15f5f3a3673")
+		)
+		(pin "1"
+			(uuid "3fe015c2-fad0-4eef-91e1-18102457622e")
+		)
+		(instances
+			(project "afork-kicad-parts"
+				(path "/cb8f6e0d-a02c-4a1b-9ae5-b293992d3fe7"
+					(reference "JP4")
 					(unit 1)
 				)
 			)

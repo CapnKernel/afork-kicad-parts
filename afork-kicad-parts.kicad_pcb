@@ -194,6 +194,14 @@
 	(net 112 "unconnected-(X1-OE-Pad3)")
 	(net 113 "unconnected-(X1-GND-Pad1)")
 	(net 114 "unconnected-(X1-NC-Pad2)")
+	(net 115 "unconnected-(JP1-Pad2)")
+	(net 116 "unconnected-(JP1-Pad1)")
+	(net 117 "unconnected-(JP2-Pad2)")
+	(net 118 "unconnected-(JP2-Pad1)")
+	(net 119 "unconnected-(JP4-Pad1)")
+	(net 120 "unconnected-(JP4-Pad2)")
+	(net 121 "unconnected-(JP5-Pad2)")
+	(net 122 "unconnected-(JP5-Pad1)")
 	(footprint "Package_TO_SOT_SMD:SOT-23-6"
 		(layer "F.Cu")
 		(uuid "1a7d0b4f-c175-4470-96ff-d16ff588b035")
@@ -789,7 +797,7 @@
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
 		(property "Reference" "U8"
-			(at 3.81 -2.33 270)
+			(at 3.81 -2.33 -90)
 			(layer "F.SilkS")
 			(uuid "01cdaf5d-32b0-46fe-ac95-0585034f9631")
 			(effects
@@ -800,7 +808,7 @@
 			)
 		)
 		(property "Value" "NE555P"
-			(at 3.81 9.95 270)
+			(at 3.81 9.95 -90)
 			(layer "F.Fab")
 			(uuid "977153f9-332d-4171-9b5c-682e8e901279")
 			(effects
@@ -1003,7 +1011,7 @@
 			(uuid "1fd89884-1369-4b7c-a003-987ce12445c5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 3.81 3.81 270)
+			(at 3.81 3.81 -90)
 			(layer "F.Fab")
 			(uuid "061dc05d-02d8-4b92-afa4-e8d309a9f4ab")
 			(effects
@@ -2034,6 +2042,422 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "afork-kicad-parts:tinySJ-Bridged"
+		(layer "F.Cu")
+		(uuid "6123584f-f4db-4027-a964-dab2e0b985e4")
+		(at 156.586 79.93)
+		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips")
+		(tags "net tie solder jumper bridged")
+		(property "Reference" "JP4"
+			(at 0 1 0)
+			(layer "F.SilkS")
+			(uuid "d6a72384-4d49-427a-8cea-8a87ef83b6dc")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "20f94f47-9d78-465c-926f-0f0c41fb70a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Bridged"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffdb8f77-0f93-4acf-adfa-8170f767210b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbdaf5f7-021b-4e16-b8b6-544d1b8e7159")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37a63741-ff65-4990-8189-b1a134e75d61")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/f18c7e4d-eb75-4f8b-b9b3-748cf5dbc816")
+		(sheetname "Root")
+		(sheetfile "afork-kicad-parts.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(net_tie_pad_groups "1, 1, 2, 2")
+		(fp_poly
+			(pts
+				(xy -0.407505 -0.119217) (xy 0.433517 -0.119216) (xy 0.433517 0.123553) (xy -0.407505 0.123552)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "cc8251f8-8d10-4a27-b131-96b119a16d68")
+		)
+		(fp_line
+			(start -0.314 -0.314)
+			(end -0.1 -0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5759ec76-b803-4f1e-8414-e5d572e4dc7b")
+		)
+		(fp_line
+			(start -0.1 0.314)
+			(end -0.314 0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "82c2daf1-4b7a-4d62-9b63-76fe3c3b92bd")
+		)
+		(fp_line
+			(start 0.1 -0.314)
+			(end 0.314 -0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "25a134b1-d1af-44ac-804b-010eed8608da")
+		)
+		(fp_line
+			(start 0.314 0.314)
+			(end 0.1 0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b4f32700-676e-43bf-93ae-ae733ea27967")
+		)
+		(fp_arc
+			(start -0.314 0.314)
+			(mid -0.628 0)
+			(end -0.314 -0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "397b48a8-5d3e-4d2c-a622-2e48c80356c9")
+		)
+		(fp_arc
+			(start 0.314 -0.314)
+			(mid 0.628 0)
+			(end 0.314 0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8d39e0d6-ad89-4acb-9778-6237c069dbf4")
+		)
+		(fp_line
+			(start -0.314 -0.364)
+			(end 0.314 -0.364)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f492bc75-6533-49de-8ae0-9f8dcc7f58f7")
+		)
+		(fp_line
+			(start 0.314 0.364)
+			(end -0.314 0.364)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "a5b4d6fd-c103-46cf-a7a6-2cf226500872")
+		)
+		(fp_arc
+			(start -0.314 0.364)
+			(mid -0.678 0)
+			(end -0.314 -0.364)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dd976ca9-dd76-42c4-9b9d-a971ec2b994a")
+		)
+		(fp_arc
+			(start 0.314 -0.364)
+			(mid 0.678 0)
+			(end 0.314 0.364)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "121af3e4-b92d-4bb3-b49d-0b3f751737c4")
+		)
+		(pad "1" smd circle
+			(at -0.314 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 119 "unconnected-(JP4-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "2d6250a4-b395-4d7c-be5e-132536b0c544")
+		)
+		(pad "1" smd rect
+			(at -0.189 0)
+			(size 0.25 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 119 "unconnected-(JP4-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "5b38eb05-ffe0-49f1-8031-2fa74995279b")
+		)
+		(pad "2" smd rect
+			(at 0.189 0)
+			(size 0.25 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 120 "unconnected-(JP4-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "9b4f9f1d-62a5-4f85-b7cb-ec33118ce51b")
+		)
+		(pad "2" smd circle
+			(at 0.314 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 120 "unconnected-(JP4-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "f9dd9428-09d7-426d-afe3-1c1443ecf9ba")
+		)
+	)
+	(footprint "afork-kicad-parts:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "7145993a-fe0e-425c-b338-0e51910bc6ef")
+		(at 153.384 79.868)
+		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 1 copper strip")
+		(tags "net tie , solder jumper open")
+		(property "Reference" "JP1"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "fa89d43e-cd17-47f8-aea7-25900ef5cbcb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PCB_Patch"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e27ce460-3d35-4baf-9489-367a7b8a4103")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f580af9e-4a89-4775-a1bb-44b0b3ada162")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c4730a8-b15b-49a7-8e7a-2b5c07bffede")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, normally closed, small symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "310318b0-dcc3-4382-9a21-72819fd002e0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/c35292f2-51a2-4dac-bc86-9f2ddbcd2519")
+		(sheetname "Root")
+		(sheetfile "afork-kicad-parts.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(net_tie_pad_groups "1, 2")
+		(fp_poly
+			(pts
+				(xy 0.15 0.15) (xy 0 0.05) (xy -0.15 0.15) (xy -0.15 -0.15) (xy 0 -0.05) (xy 0.15 -0.15)
+			)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Cu")
+			(uuid "a09f7db9-be35-4e3d-96d1-dc4924fe925c")
+		)
+		(fp_line
+			(start -1.3 -0.9)
+			(end 1.3 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0db16dcb-385e-451a-b026-d254a0de4668")
+		)
+		(fp_line
+			(start -1.3 0.9)
+			(end -1.3 -0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ed5d5da5-92e4-49b7-b12e-be2c91ad4867")
+		)
+		(fp_line
+			(start 1.3 -0.9)
+			(end 1.3 0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "89cbfd34-9802-442b-a736-f588174320d2")
+		)
+		(fp_line
+			(start 1.3 0.9)
+			(end -1.3 0.9)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "fe545cb0-52c3-48cd-9b5a-91df7f327791")
+		)
+		(fp_poly
+			(pts
+				(xy -0.120323 -0.198822) (xy 0.145796 -0.198822) (xy 0.145796 0.202658) (xy -0.120323 0.202658)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "0246b806-4b0e-42a8-b632-377357c2ca69")
+		)
+		(fp_line
+			(start -1.4 -1)
+			(end -1.4 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "50fed5f9-5836-426f-a92e-5d6893cf4cb2")
+		)
+		(fp_line
+			(start -1.4 -1)
+			(end 1.4 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fb061df4-c7bf-4d84-b86b-64a3e4e2618e")
+		)
+		(fp_line
+			(start 1.4 1)
+			(end -1.4 1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3efc776a-eaee-4e2c-8430-24b2ccc32f94")
+		)
+		(fp_line
+			(start 1.4 1)
+			(end 1.4 -1)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "851896f7-d00a-4262-bfc4-2122593b6b22")
+		)
+		(pad "1" smd rect
+			(at -0.65 0)
+			(size 1 1.5)
+			(layers "F.Cu" "F.Mask")
+			(net 116 "unconnected-(JP1-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "fb1bffab-7e0e-4b9f-ba26-966cd8fc8238")
+		)
+		(pad "2" smd rect
+			(at 0.65 0)
+			(size 1 1.5)
+			(layers "F.Cu" "F.Mask")
+			(net 115 "unconnected-(JP1-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "67c0778b-c2e5-424b-bbe3-2f6792fb0c0d")
 		)
 	)
 	(footprint "Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias"
@@ -4203,6 +4627,417 @@
 			(pinfunction "1")
 			(pintype "tri_state")
 			(uuid "ba6cfbbe-4ccc-4d92-ba5c-875997bf22d3")
+		)
+	)
+	(footprint "afork-kicad-parts:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "ec8a9cc8-acc4-4d08-966e-cfa419a5fb23")
+		(at 153.634 76.568)
+		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP2"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "747a088f-1f00-48ff-8d3f-001d1f411ff3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "PCB_Patch-open"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fbdda06-8db2-4be9-99f0-89d26d59e55f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a708b216-f7f2-479b-ad90-6721d208f851")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "57d1dbec-9ad1-4fb8-9bc2-360814e7bbb9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, normally open, small symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6e65df7d-d07b-4a6e-9e47-3db684922955")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/7eb25ef2-4029-4981-8553-9776ef945706")
+		(sheetname "Root")
+		(sheetfile "afork-kicad-parts.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_line
+			(start -1.4 -1)
+			(end 1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ea3ed0e1-8c4a-4cd5-bc0c-01e8f7cf269a")
+		)
+		(fp_line
+			(start -1.4 1)
+			(end -1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6e9dd3f1-f759-4a9f-bc76-bf347ccb970c")
+		)
+		(fp_line
+			(start 1.4 -1)
+			(end 1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "165f2d74-6b25-4ca7-afc4-607d2e0102da")
+		)
+		(fp_line
+			(start 1.4 1)
+			(end -1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "e566e4a8-0435-429d-afff-95758936ac43")
+		)
+		(fp_poly
+			(pts
+				(xy -0.120323 -0.748822) (xy 0.145796 -0.748822) (xy 0.145796 0.752658) (xy -0.120323 0.752658)
+			)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill solid)
+			(layer "F.Mask")
+			(uuid "bcf92e6b-9abc-4b85-b774-3ebc0453919a")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "10b57c84-35d4-4e4e-bab4-05addf24b043")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "46c9617b-f401-4387-a6eb-dd23533a8e61")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1ef5238a-85a4-4c39-8513-3f74b690cf61")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ede9d102-9cec-423d-a820-85906e51899c")
+		)
+		(pad "1" smd rect
+			(at -0.65 0)
+			(size 1 1.5)
+			(layers "F.Cu" "F.Mask")
+			(net 118 "unconnected-(JP2-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "ca6f7f95-661d-4548-88a6-8008b0398f4b")
+		)
+		(pad "2" smd rect
+			(at 0.65 0)
+			(size 1 1.5)
+			(layers "F.Cu" "F.Mask")
+			(net 117 "unconnected-(JP2-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "9d89f9f8-6aa8-4fe4-8bc4-f1d9c32c7490")
+		)
+	)
+	(footprint "afork-kicad-parts:tinySJ-Open"
+		(layer "F.Cu")
+		(uuid "f0e80d5b-9d59-437b-b0a3-1bc8c237e7c3")
+		(at 156.582 76.44)
+		(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips")
+		(tags "net tie solder jumper bridged")
+		(property "Reference" "JP5"
+			(at 0 1 0)
+			(layer "F.SilkS")
+			(uuid "d2e30402-4b5b-46ed-b89e-e9ae11e1391d")
+			(effects
+				(font
+					(size 0.6 0.6)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "PCB_Patch-open"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f121093b-b680-4310-9218-8f8a7eef9703")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:tinySJ-Open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d447924-2cec-4cfe-98cf-25ceacb3c90b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6a668f8-77ff-4c7f-9ae5-6569874fb2a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, normally open, small symbol"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d562ebda-b94e-4d62-a048-6ac966762ee9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(path "/cb05c6e0-9ce8-4170-98c8-2495e67a759d")
+		(sheetname "Root")
+		(sheetfile "afork-kicad-parts.kicad_sch")
+		(attr exclude_from_pos_files exclude_from_bom)
+		(net_tie_pad_groups "1, 1, 2, 2")
+		(fp_line
+			(start -0.314 -0.314)
+			(end -0.1 -0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "93f8df36-0a98-408f-ab2d-424bcfb94c92")
+		)
+		(fp_line
+			(start -0.1 -0.314)
+			(end 0.1 -0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "28abda6e-9977-411f-a0df-4b17673c398a")
+		)
+		(fp_line
+			(start -0.1 0.314)
+			(end -0.314 0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c5f7a554-244c-4362-b5c8-9c7517730f3b")
+		)
+		(fp_line
+			(start -0.1 0.314)
+			(end 0.1 0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "a8fc75dd-8e34-4b0e-a07b-4b272b95cf69")
+		)
+		(fp_line
+			(start 0.1 -0.314)
+			(end 0.314 -0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8f7739ec-ebd7-4109-90ab-63a417bf13be")
+		)
+		(fp_line
+			(start 0.314 0.314)
+			(end 0.1 0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5221a9b6-2c0a-4822-a995-59ba656b256b")
+		)
+		(fp_arc
+			(start -0.314 0.314)
+			(mid -0.628 0)
+			(end -0.314 -0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ec8f7351-6988-44fe-8d54-7ee946bcdea2")
+		)
+		(fp_arc
+			(start 0.314 -0.314)
+			(mid 0.628 0)
+			(end 0.314 0.314)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6911314f-fe93-4b64-a0ee-0e514c8e047e")
+		)
+		(fp_line
+			(start -0.314 -0.364)
+			(end 0.314 -0.364)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "9cc74f71-86ac-40eb-ba10-1f5fb4d19caf")
+		)
+		(fp_line
+			(start 0.314 0.364)
+			(end -0.314 0.364)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "50612577-bc77-4509-9cee-ba84545f72fd")
+		)
+		(fp_arc
+			(start -0.314 0.364)
+			(mid -0.678 0)
+			(end -0.314 -0.364)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e0dcc969-ace9-4dcc-be36-408eae3a13a4")
+		)
+		(fp_arc
+			(start 0.314 -0.364)
+			(mid 0.678 0)
+			(end 0.314 0.364)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1f61b4c2-0390-49de-99f2-423f697adb48")
+		)
+		(pad "1" smd circle
+			(at -0.314 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 122 "unconnected-(JP5-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "f8dd3428-c239-42f5-9d5b-be532c1f0591")
+		)
+		(pad "1" smd rect
+			(at -0.189 0)
+			(size 0.25 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 122 "unconnected-(JP5-Pad1)")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "c7ba54d4-812e-4aa4-9fcd-666b7e80fbb6")
+		)
+		(pad "2" smd rect
+			(at 0.189 0)
+			(size 0.25 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 121 "unconnected-(JP5-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "e3b38fdd-12e2-4783-bbdf-21f7d9ebe5d7")
+		)
+		(pad "2" smd circle
+			(at 0.314 0)
+			(size 0.5 0.5)
+			(layers "F.Cu" "F.Mask")
+			(net 121 "unconnected-(JP5-Pad2)")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "739f7c86-36c3-4b02-ae88-1a5529f4d1f9")
 		)
 	)
 )

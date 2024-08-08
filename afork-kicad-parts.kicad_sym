@@ -6078,7 +6078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ozhelm:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
+		(property "Footprint" "afork-kicad-parts:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm"
 			(at 1.27 3.81 0)
 			(effects
 				(font
@@ -6226,7 +6226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "ozhelm:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
+		(property "Footprint" "afork-kicad-parts:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 0 0 0)
 			(effects
 				(font
