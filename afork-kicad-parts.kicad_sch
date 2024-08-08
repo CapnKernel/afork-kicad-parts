@@ -10304,6 +10304,344 @@
 				)
 			)
 		)
+		(symbol "afork-kicad-parts:Tinker-USB_C"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -7.62 15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Tinker-USB_C"
+				(at -2.54 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Customs:USB_C"
+				(at 0 -26.67 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" " ~"
+				(at 3.81 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "USB Type C connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C2765186"
+				(at 10.16 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector USB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "USB*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Tinker-USB_C_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.889) (xy 1.27 0.889) (xy 2.54 2.159) (xy 3.175 2.159)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0.889) (xy 1.905 0.889) (xy 2.54 -0.381) (xy 3.81 -0.381)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.445 1.524) (xy 4.445 0.254) (xy 5.715 0.889) (xy 4.445 1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0.889)
+					(radius 0.635)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.175 2.159)
+					(radius 0.381)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 4.064 0)
+					(end 3.302 -0.762)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Tinker-USB_C_1_1"
+				(polyline
+					(pts
+						(xy 1.905 0.889) (xy 4.445 0.889)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VBUS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "D-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -12.7 90)
+					(length 2.54)
+					(name "Shield"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "CC1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SBU1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "CC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -7.62 0)
+					(length 2.54)
+					(name "SBU2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "afork-kicad-parts:Tooling"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -12087,7 +12425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Espressif:ESP32-S3-WROOM-1"
+		(property "Footprint" "RF_Module:ESP32-S3-WROOM-1"
 			(at 234.95 123.19 0)
 			(effects
 				(font
@@ -12671,7 +13009,7 @@
 	)
 	(symbol
 		(lib_id "afork-kicad-parts:DC_CONN")
-		(at 49.53 107.95 0)
+		(at 63.5 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12680,7 +13018,7 @@
 		(fields_autoplaced yes)
 		(uuid "7561cda0-59eb-43e7-947b-fdda9902183e")
 		(property "Reference" "P2"
-			(at 48.4505 99.9955 0)
+			(at 62.4205 70.7855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12688,7 +13026,7 @@
 			)
 		)
 		(property "Value" "DC_CONN"
-			(at 48.4505 102.4198 0)
+			(at 62.4205 73.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12696,7 +13034,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 107.95 0)
+			(at 73.66 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12705,7 +13043,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 107.95 0)
+			(at 73.66 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12714,7 +13052,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 107.95 0)
+			(at 63.5 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12955,6 +13293,106 @@
 			(project "afork-kicad-parts"
 				(path "/cb8f6e0d-a02c-4a1b-9ae5-b293992d3fe7"
 					(reference "U13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afork-kicad-parts:Tinker-USB_C")
+		(at 53.34 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94fa4fbb-a158-45fc-b936-ecbf1f2fc0f2")
+		(property "Reference" "J5"
+			(at 61.722 106.7378 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tinker-USB_C"
+			(at 61.722 109.1621 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "afork-kicad-parts:Tinker-USB_C"
+			(at 53.34 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" " ~"
+			(at 57.15 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Type C connector"
+			(at 53.34 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2765186"
+			(at 63.5 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "B5"
+			(uuid "54caa3be-d3a2-4cca-9b2f-ba1ba63eb3a2")
+		)
+		(pin "A5"
+			(uuid "2505a452-c2fc-408d-acb3-2523b1221f60")
+		)
+		(pin "1"
+			(uuid "1649d743-2b93-42e6-924e-dda85a3510c0")
+		)
+		(pin "4"
+			(uuid "0063ba8b-5463-4e79-886d-9153d6ae9179")
+		)
+		(pin "3"
+			(uuid "15e01739-e6ee-41c8-8528-da8518d73505")
+		)
+		(pin "2"
+			(uuid "4b3023a3-5d1d-467f-83f7-e90db6e5f2a1")
+		)
+		(pin "B8"
+			(uuid "4a542cf4-f281-4d41-a6dd-c950f66183c9")
+		)
+		(pin "A8"
+			(uuid "6d47b837-c611-4cff-a213-a4f78c807220")
+		)
+		(pin "5"
+			(uuid "deae63f9-bf8a-4a9f-b5cf-5c4b1cd4f5db")
+		)
+		(instances
+			(project "afork-kicad-parts"
+				(path "/cb8f6e0d-a02c-4a1b-9ae5-b293992d3fe7"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -13736,7 +14174,7 @@
 	)
 	(symbol
 		(lib_id "afork-kicad-parts:Thermal fuse")
-		(at 49.149 93.599 0)
+		(at 22.479 51.689 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13745,7 +14183,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdec1cc5-2707-4a11-a6f2-29af3a194366")
 		(property "Reference" "F1"
-			(at 49.276 88.8195 0)
+			(at 22.606 46.9095 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13753,7 +14191,7 @@
 			)
 		)
 		(property "Value" "Thermal fuse"
-			(at 49.276 91.2438 0)
+			(at 22.606 49.3338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13761,7 +14199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.276 95.504 0)
+			(at 22.606 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,7 +14208,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.276 93.726 0)
+			(at 22.606 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13779,7 +14217,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 49.276 93.726 0)
+			(at 22.606 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
