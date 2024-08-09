@@ -277,7 +277,7 @@
 		(roundrect_rratio 0.208333)
 		(uuid "c84d8764-4d6a-48a5-a87e-474fe94ca8e9")
 	)
-	(model "${KIPRJMOD}/afork-kicad-parts.pretty/CONN-SMD_SR1.00-WS-4P.step"
+	(model "CONN-SMD_SR1.00-WS-4P.step"
 		(offset
 			(xyz -1.5 -0.45 0)
 		)

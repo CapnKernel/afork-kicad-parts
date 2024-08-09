@@ -240,7 +240,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "c89f8ee5-d4ed-40c3-a1db-83506234bbb6")
 	)
-	(model "${KIPRJMOD}/afork-kicad-parts.pretty/SW-SMD_L4.0-W2.9-LS4.8-2.step"
+	(model "SW-SMD_L4.0-W2.9-LS4.8-2.step"
 		(offset
 			(xyz 0 0 0)
 		)
