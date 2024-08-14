@@ -5423,7 +5423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ozhelm:MountingHole"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5478,6 +5478,26 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+		(symbol "MountingHole_1_1"
+			(pin passive line
+				(at 0 0 0)
+				(length 2.54) hide
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)
