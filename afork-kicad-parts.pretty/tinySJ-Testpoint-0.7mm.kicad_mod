@@ -63,7 +63,6 @@
 		)
 	)
 	(attr smd exclude_from_pos_files exclude_from_bom)
-	(net_tie_pad_groups "1, 1, 2, 2")
 	(fp_circle
 		(center 0 0)
 		(end 0.414 0)
