@@ -10346,7 +10346,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Customs:USB_C"
+		(property "Footprint" "afork-kicad-parts:Tinker-USB_C"
 			(at 0 -26.67 0)
 			(effects
 				(font
