@@ -65,6 +65,7 @@
 			)
 		)
 	)
+	(attr smd)
 	(fp_line
 		(start -4.7 -5.001368)
 		(end -4.7 -3.001368)
@@ -274,13 +275,6 @@
 		(uuid "7cfbcfd9-012c-450e-9a9b-d3a733d5a005")
 	)
 	(pad "2" smd roundrect
-		(at 0.25 -8.2)
-		(size 0.3 1)
-		(layers "F.Cu" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "ba1ff066-cd72-4f6a-bb08-067b8b93461c")
-	)
-	(pad "2" smd roundrect
 		(at 0.25 -7.4)
 		(size 0.3 1.85)
 		(layers "F.Cu")
@@ -314,13 +308,6 @@
 		(layers "F.Cu" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1f419771-9e32-4166-b1bd-13b631613585")
-	)
-	(pad "3" smd roundrect
-		(at 0.75 -8.2)
-		(size 0.3 1)
-		(layers "F.Cu" "F.Paste")
-		(roundrect_rratio 0.25)
-		(uuid "e0620b43-1cd0-4ced-920a-89cf50a9cea5")
 	)
 	(pad "3" smd roundrect
 		(at 0.75 -7.146368)
