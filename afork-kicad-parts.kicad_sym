@@ -11126,8 +11126,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J"
-			(at 0 22.225 0)
+		(property "Reference" "J3"
+			(at 0 21.9245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11135,14 +11135,14 @@
 			)
 		)
 		(property "Value" "USB_C_Receptacle_USB2.0_14P"
-			(at 0 19.685 0)
+			(at 0 19.5002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "afork-kicad-parts:USB-C-SMD_G-SWITCH_GT-USB-7010ASV"
 			(at 3.81 9.017 0)
 			(effects
 				(font
@@ -11151,7 +11151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
+		(property "Datasheet" "https://lcsc.com/datasheet/lcsc_datasheet_2411221125_G-Switch-GT-USB-7010ASV_C2988369.pdf"
 			(at 3.81 0 0)
 			(effects
 				(font
@@ -11161,6 +11161,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 14P Type-C Receptacle connector"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2988369"
 			(at 0 0 0)
 			(effects
 				(font
@@ -11489,7 +11498,7 @@
 						)
 					)
 				)
-				(number "S1"
+				(number "SHIELD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11507,26 +11516,7 @@
 						)
 					)
 				)
-				(number "A1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -12.7 90)
-				(length 5.08)
-				(hide yes)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "A12"
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11545,7 +11535,7 @@
 						)
 					)
 				)
-				(number "B1"
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11564,7 +11554,26 @@
 						)
 					)
 				)
-				(number "B12"
+				(number "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -12.7 90)
+				(length 5.08)
+				(hide yes)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11582,7 +11591,7 @@
 						)
 					)
 				)
-				(number "A4"
+				(number "VBUS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11601,7 +11610,7 @@
 						)
 					)
 				)
-				(number "A9"
+				(number "VBUS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11620,7 +11629,7 @@
 						)
 					)
 				)
-				(number "B4"
+				(number "VBUS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11639,7 +11648,7 @@
 						)
 					)
 				)
-				(number "B9"
+				(number "VBUS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11657,7 +11666,7 @@
 						)
 					)
 				)
-				(number "A5"
+				(number "CC1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11675,7 +11684,7 @@
 						)
 					)
 				)
-				(number "B5"
+				(number "CC2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11693,7 +11702,7 @@
 						)
 					)
 				)
-				(number "A7"
+				(number "D-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11711,7 +11720,7 @@
 						)
 					)
 				)
-				(number "B7"
+				(number "D-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11729,7 +11738,7 @@
 						)
 					)
 				)
-				(number "A6"
+				(number "D+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -11747,7 +11756,7 @@
 						)
 					)
 				)
-				(number "B6"
+				(number "D+"
 					(effects
 						(font
 							(size 1.27 1.27)
