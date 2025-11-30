@@ -4194,7 +4194,7 @@
 		(uuid "e3be3129-7490-4c92-9ff8-fc0585a8bd65")
 	)
 	(fp_line
-		(start -9.2 -12.21)
+		(start -9.6 -12.21)
 		(end 9.2 -12.21)
 		(stroke
 			(width 0.127)
@@ -4204,8 +4204,8 @@
 		(uuid "9c8e9139-3609-444a-90f2-fee640978746")
 	)
 	(fp_line
-		(start -9.2 12.18)
-		(end -9.2 -12.21)
+		(start -9.6 12.18)
+		(end -9.6 -12.21)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -4214,8 +4214,8 @@
 		(uuid "a319b6f8-acc9-4d16-9a21-dbeb1842bfe1")
 	)
 	(fp_line
-		(start -9.2 12.18)
-		(end 9.2 12.18)
+		(start -9.6 12.18)
+		(end 9.6 12.18)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -4224,8 +4224,8 @@
 		(uuid "5793badc-2608-4a5f-9b9d-f5f481b9003f")
 	)
 	(fp_line
-		(start 9.2 12.18)
-		(end 9.2 -12.21)
+		(start 9.6 12.18)
+		(end 9.6 -12.21)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -4422,15 +4422,15 @@
 		(uuid "11c89542-2f42-4038-adf6-9b16ecc7dc67")
 	)
 	(embedded_fonts no)
-	(model "${KICAD_M5STACK}/M5KiCad.3d/M5STAMP-S3.step"
+	(model "${KIPRJMOD}/afork-kicad-parts/afork-kicad-parts.pretty/M5STAMP-S3.step"
 		(offset
-			(xyz 0 0 1.1)
+			(xyz 0 0 1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )

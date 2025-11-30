@@ -4513,15 +4513,15 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${KICAD_M5STACK}/M5KiCad.3d/M5STAMP-S3.step"
+	(model "${KIPRJMOD}/afork-kicad-parts/afork-kicad-parts.pretty/M5STAMP-S3.step"
 		(offset
-			(xyz 0 0 6.1)
+			(xyz 0 0 6.2)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
