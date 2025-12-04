@@ -1,7 +1,7 @@
 (footprint "FUSE-TH_XF-506P"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -4 0)
@@ -25,18 +25,6 @@
 			)
 		)
 	)
-	(property "Footprint" "FUSE-TH_XF-506P"
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "73b7c4ee-1f68-4825-bf73-8d8cd9057c43")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -46,6 +34,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -58,6 +47,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -189,7 +179,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "2c6592ed-0546-4d99-9329-0c0276fd759c")
 	)
@@ -236,15 +226,16 @@
 		(remove_unused_layers no)
 		(uuid "edac44fd-0a81-4b41-a815-ebae1ba4c053")
 	)
-	(model "FUSE-TH_XF-506P.step"
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/afork-kicad-parts/afork-kicad-parts.pretty/FUSE-TH_XF-506P.step"
 		(offset
-			(xyz 0 -0.35 5.2)
+			(xyz 0 0 5.1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
